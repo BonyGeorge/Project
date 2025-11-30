@@ -1,0 +1,83 @@
+{
+    "categorical": [
+        "X2PAREDU",
+        "X1PAREDU",
+        "X3TGPAHIMTH",
+        "X3TGPAHISCI",
+        "X3TGPASTEM",
+        "X3TGPAACAD",
+        "X5GPAALL",
+
+        "A1TCHRABSENT",
+        "A1PRNTINV",
+        "A1UNPREP",
+        "A1HEALTH",
+        "A1RESOURCES",
+        "A1SCHCONTROL"
+    ],
+    "numerical": [
+        "X1TXMTSCOR",
+        "X1SES",
+        "X4X2SES", 
+        "X2TXMTSCOR", 
+        "X1MTHINT", 
+        "X2SCIINT", 
+        "X2MTHINT_R",
+        "X1SCIINT",
+
+        "A1HRTEACHERS",
+        "A1HRSTUDENT"
+        
+    ],
+    "boolean": [
+        "A1MTHSCIFAIR",
+        "A1MSSUMMER",
+        "A1MSAFTERSCH",
+        "A1MSMENTOR",
+        "A1MSSPEAKER",
+        "A1MSFLDTRIP",
+        "A1MSPRGMS",
+        "C1PLANPARENT",
+        "C1SIGNOFF"
+    ],
+    "descriptions": {
+        "X1TXMTSCOR": "X1 Mathematics standardized theta score",
+        "X2TXMTSCOR": "X2 Mathematics standardized theta score",
+        "X1PAREDU": "X1 Parents'/guardians' highest level of education",
+        "X2PAREDU": "X2 Parents'/guardians' highest level of education",
+        "X1MTHINT": "X1 Scale of student's interest in fall 2009 math course",
+        "X2MTHINT_R": "X2 Scale of student's interest in fall 2009 math course (REVISED)",
+        "X1SCIINT": "X1 Scale of student's interest in fall 2009 science course",
+        "X2SCIINT": "X2 Scale of student's interest in fall 2009 science course",
+        "X1SES": "X1 Socio-economic status composite",
+        "X4X2SES": "X4 Revised X2 Socio-economic status composite",
+        "X3TGPAHIMTH": "X3 GPA - highest level mathematics course taken",
+        "X3TGPAHISCI": "X3 GPA - highest level science course taken",
+        "X3TGPASTEM": "X3 GPA for STEM courses",
+        "X3TGPAACAD": "X3 GPA for academic courses",
+        "X5GPAALL" : "Postsecondary Transcript: GPA at all known institutions attended",
+
+        "A1TCHRABSENT": "A1 E17D Teacher absenteeism is a problem at this school",
+        "A1PRNTINV": "A1 E17G Lack of parental involvement is a problem at this school",
+        "A1UNPREP": "A1 E17H Students coming unprepared to learn is a problem at this school",
+        "A1HEALTH": "A1 E17I Poor student health is a problem at this school",
+        "A1RESOURCES": "A1 E17J Lack of teacher resources and materials is a problem at this school",
+        "A1SCHCONTROL": "A1 A02 School control",
+        "A1HRTEACHERS": "A1 E16A Hours/week spent working with teachers on instructional issues",
+        "A1HRSTUDENT": "A1 E16H Hours/week spent meeting with students",
+        "A1MTHSCIFAIR": "A1 A25A Holds math or science fairs/workshops/competitions",
+        "A1MSSUMMER": "A1 A25B Partners w/ college/university that offers math/science summer program",
+        "A1MSAFTERSCH": "A1 A25C Sponsors a math or science after-school program",
+        "A1MSMENTOR": "A1 A25D Pairs students with mentors in math or science",
+        "A1MSSPEAKER": "A1 A25E Brings in guest speakers to talk about math or science",
+        "A1MSFLDTRIP": "A1 A25F Takes students on math- or science-relevant field trips",
+        "A1MSPRGMS": "A1 A25G Tells students about math/science contests/websites/blogs/other programs",
+        "C1PLANPARENT": "C1 A14 School shares students' career/education plans with their parents",
+        "C1SIGNOFF": "C1 A15 School requires parents to sign off on students' career/education plans"
+
+    },
+    "questions": {
+        "X2PAREDU": "1 = \"Less than high school\"\n2 = \"High school diploma or GED or alterntive HS credential\"\n3 = \"Certificate/diploma from school providing occupational training\"\n4 = \"Associate's degree\"\n5 = \"Bachelor's degree\"\n6 = \"Master's degree\"\n7 = \"Ph.D/M.D/Law/other high lvl prof degree\"\n-8 = \"Unit non-response\"",
+        "X1PAREDU": "1 = \"Less than high school\"\n2 = \"High school diploma or GED\"\n3 = \"Associate's degree\"\n4 = \"Bachelor's degree\"\n5 = \"Master's degree\"\n7 = \"Ph.D/M.D/Law/other high lvl prof degree\"\n-8 = \"Unit non-response\"\n-9 = \"Missing\""
+    }
+}
