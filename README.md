@@ -13,6 +13,7 @@ This project utilizes machine learning techniques to predict student Grade Point
 ## Prerequisites
 To run this notebook, you will need the following Python libraries installed:
 
+```shell 
 pip install pandas numpy matplotlib scikit-learn statsmodels imbalanced-learn xgboost
 
 ## Files Description
