@@ -18,9 +18,9 @@ pip install pandas numpy matplotlib scikit-learn statsmodels imbalanced-learn xg
 ```
 
 ## Files Description
-* **`Modeling.ipynb`**: The main Jupyter Notebook containing the analysis, preprocessing, and modeling code.
+* **`main_notebook.ipynb`**: The main Jupyter Notebook containing the analysis, preprocessing, and modeling code.
 * **`data/our_features_cleaned.csv`**: The cleaned dataset used as input (required for the notebook to run).
-* **`resources/student_info_updated.json`**: Metadata file mapping features to categorical, numerical, or boolean types.
+* **`utils/student_info_updated.json`**: Metadata file mapping features to categorical, numerical, or boolean types.
 
 ## Methodology
 
