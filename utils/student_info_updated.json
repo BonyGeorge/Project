@@ -1,0 +1,95 @@
+{
+    "categorical": [
+        "X2PAREDU",
+        "X1PAREDU",
+        "X3TGPAHIMTH",
+        "X3TGPAHISCI",
+        "X3TGPASTEM",
+        "X3TGPAACAD",
+
+        "S2LATESCH",
+        "S2ABSENT",
+        "S2WOHWDN",
+        "S2WOPAPER",
+        "S2WOBOOKS",
+        "S2SKIPCLASS",
+        "S2INSCHSUSP"
+    ],
+    "numerical": [
+        "X1TXMTSCOR",
+        "X1SES",
+        "X4X2SES", 
+        "X2TXMTSCOR", 
+        "X1MTHINT", 
+        "X2SCIINT", 
+        "X2MTHINT_R",
+        "X1SCIINT",
+        "X2BEHAVEIN",
+        "S1GOODGRADES",
+
+        "S1GOODGRADES",
+        "S1HRMHOMEWK",
+        "S1HRSHOMEWK",
+        "S1HROTHHOMWK",
+        "S1HRACTIVITY",
+        "S1HRTV",
+        "S1HRVIDEO",
+        "S1HRONLINE"
+    ],
+    "boolean": [
+        "A1MSMENTOR",
+        "A1MSSPEAKER",
+        "A1MSFLDTRIP",
+        "A1MSPRGMS"
+    ],
+    "descriptions": {
+        "X1TXMTSCOR": "X1 Mathematics standardized theta score",
+        "X2TXMTSCOR": "X2 Mathematics standardized theta score",
+        "X1PAREDU": "X1 Parents'/guardians' highest level of education",
+        "X2PAREDU": "X2 Parents'/guardians' highest level of education",
+        "X1MTHINT": "X1 Scale of student's interest in fall 2009 math course",
+        "X2MTHINT_R": "X2 Scale of student's interest in fall 2009 math course (REVISED)",
+        "X1SCIINT": "X1 Scale of student's interest in fall 2009 science course",
+        "X2SCIINT": "X2 Scale of student's interest in fall 2009 science course",
+        "X2BEHAVEIN": "X2 Scale of school motivation",
+        "X1SES": "X1 Socio-economic status composite",
+        "X4X2SES": "X4 Revised X2 Socio-economic status composite",
+        "X3TGPAHIMTH": "X3 GPA - highest level mathematics course taken",
+        "X3TGPAHISCI": "X3 GPA - highest level science course taken",
+        "X3TGPASTEM": "X3 GPA for STEM courses",
+        "X3TGPAACAD": "X3 GPA for academic courses",
+
+        "A1MSMENTOR": "A1 A25D Pairs students with mentors in math or science",
+        "A1MSSPEAKER": "A1 A25E Brings in guest speakers to talk about math or science",
+        "A1MSFLDTRIP": "A1 A25F Takes students on math- or science-relevant field trips",
+        "A1MSPRGMS": "A1 A25G Tells students about math/science contests/websites/blogs/other programs",
+
+        "S1GOODGRADES": "S1 E01E Getting good grades is important to 9th grader",
+        "S1HRMHOMEWK": "S1 E15A Hours spent on math homework/studying on typical schoolday",
+        "S1HRSHOMEWK": "S1 E15B Hours spent on science homework/studying on typical schoolday",
+        "S1HROTHHOMWK": "S1 E15C Hours spent on other homework/studying on typical schoolday",
+        "S1HRACTIVITY": "S1 E15D Hours spent on extracurricular activities on typical schoolday",
+        "S1HRTV": "S1 E15H Hours spent watching television or movies on typical schoolday",
+        "S1HRVIDEO": "S1 E15I Hours spent playing video games on typical schoolday",
+        "S1HRONLINE": "S1 E15J Hours spent chatting or surfing online on typical schoolday",
+
+        "S2LATESCH": "S2 A17A Times late for school in last 6 months of school",
+        "S2ABSENT": "S2 A17B Times absent from school in last 6 months of school",
+        "S2WOHWDN": "S2 A17C Times in class without homework in last 6 months of school",
+        "S2WOPAPER": "S2 A17D Times in class without notetaking supplies in last 6 months of school",
+        "S2WOBOOKS": "S2 A17E Times in class without books/reading material in last 6 months of school",
+        "S2SKIPCLASS": "S2 A17F Times cut or skipped classes in last 6 months of school",
+        "S2INSCHSUSP": "S2 A17G Times put on in-school suspension in last 6 months of school"
+    },
+    "questions": {
+        "X2PAREDU": "1 = \"Less than high school\"\n2 = \"High school diploma or GED or alterntive HS credential\"\n3 = \"Certificate/diploma from school providing occupational training\"\n4 = \"Associate's degree\"\n5 = \"Bachelor's degree\"\n6 = \"Master's degree\"\n7 = \"Ph.D/M.D/Law/other high lvl prof degree\"\n-8 = \"Unit non-response\"",
+        "X1PAREDU": "1 = \"Less than high school\"\n2 = \"High school diploma or GED\"\n3 = \"Associate's degree\"\n4 = \"Bachelor's degree\"\n5 = \"Master's degree\"\n7 = \"Ph.D/M.D/Law/other high lvl prof degree\"\n-8 = \"Unit non-response\"\n-9 = \"Missing\"",
+        "S2LATESCH": "1 = \"Never\"\n2 = \"1-2 times\"\n3 = \"3-6 times\"\n4 = \"7-9 times\"\n5 = \"10 or more times\"\n-8 = \"Unit non-response\"\n-9 = \"Missing\"",
+        "S2ABSENT": "1 = \"Never\"\n2 = \"1-2 times\"\n3 = \"3-6 times\"\n4 = \"7-9 times\"\n5 = \"10 or more times\"\n-8 = \"Unit non-response\"\n-9 = \"Missing\"",
+        "S2WOHWDN": "1 = \"Never\"\n2 = \"1-2 times\"\n3 = \"3-6 times\"\n4 = \"7-9 times\"\n5 = \"10 or more times\"\n-8 = \"Unit non-response\"\n-9 = \"Missing\"",
+        "S2WOPAPER": "1 = \"Never\"\n2 = \"1-2 times\"\n3 = \"3-6 times\"\n4 = \"7-9 times\"\n5 = \"10 or more times\"\n-8 = \"Unit non-response\"\n-9 = \"Missing\"",
+        "S2WOBOOKS": "1 = \"Never\"\n2 = \"1-2 times\"\n3 = \"3-6 times\"\n4 = \"7-9 times\"\n5 = \"10 or more times\"\n-8 = \"Unit non-response\"\n-9 = \"Missing\"",
+        "S2SKIPCLASS": "1 = \"Never\"\n2 = \"1-2 times\"\n3 = \"3-6 times\"\n4 = \"7-9 times\"\n5 = \"10 or more times\"\n-8 = \"Unit non-response\"\n-9 = \"Missing\"",
+        "S2INSCHSUSP": "1 = \"Never\"\n2 = \"1-2 times\"\n3 = \"3-6 times\"\n4 = \"7-9 times\"\n5 = \"10 or more times\"\n-8 = \"Unit non-response\"\n-9 = \"Missing\""
+    }
+}
