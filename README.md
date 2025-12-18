@@ -31,6 +31,7 @@ The analysis follows a structured pipeline:
 * **Cleaning:** Features with high missing value counts (e.g., suspension records) are dropped.
 * **Imputation:** Missing numerical values are imputed with the mean; categorical values with the mode.
 * **Scaling:** `StandardScaler` is applied to normalize feature magnitudes.
+* **Encoding:** We applied `LabelEncoder` to encode target values.
 
 ### 2. Handling Class Imbalance
 * **SMOTE:** The Synthetic Minority Over-sampling Technique is applied to the training set to address imbalances in GPA categories, ensuring the model does not bias toward the majority class.
